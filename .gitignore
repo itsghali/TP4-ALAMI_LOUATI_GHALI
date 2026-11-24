@@ -1,0 +1,7 @@
+target/
+.idea/
+*.iml
+.env
+.env.*
+*.log
+/console/src/main/resources/rag.pdf
