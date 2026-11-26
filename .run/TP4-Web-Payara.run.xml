@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TP4 Web (Payara)" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ht.ia2.alamilouati.ghali.tp4.dev.RunWebPayara" />
+    <module name="TP4-Web-ALAMI_LOUATI_Ghali" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" value="temurin-25" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <shortenClasspath name="ARGS_FILE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

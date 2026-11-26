@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestRoutage (TP4)" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ht.ia2.alamilouati.ghali.tp4.TestRoutage" />
+    <module name="TP4-Console-ALAMI_LOUATI_Ghali" />
+    <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED -Dtp4.second.pdf=gestion-eau.pdf &quot;-Dtp4.second.description=Gestion de l'eau et irrigation goutte-à-goutte&quot;" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <shortenClasspath name="ARGS_FILE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

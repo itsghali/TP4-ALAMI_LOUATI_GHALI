@@ -1,0 +1,40 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 577 >>
+stream
+BT /F1 12 Tf 15 TL 48 770 Td
+(Gestion de l'eau : irrigation goutte-a-goutte) Tj
+T* (Le goutte-a-goutte apporte l'eau au pied des plantes par de petits emetteurs.) Tj
+T* (Un filtre limite l'obstruction des emetteurs par les particules.) Tj
+T* (Un regulateur de pression favorise un debit regulier le long des conduites.) Tj
+T* (La programmation doit tenir compte du sol, de la culture et de la meteo.) Tj
+T* (Un compteur permet de suivre le volume distribue et de reperer certaines fuites.) Tj
+T* (Exemple : 10 goutteurs de 2 L/h ouverts 30 minutes distribuent 10 litres.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+939
+%%EOF

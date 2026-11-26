@@ -13,6 +13,7 @@ import dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore;
 import java.util.List;
 
 public final class CorpusRag {
+    private static final String PDF_GESTION_EAU = "gestion-eau.pdf";
     private final EmbeddingModel embeddingModel = new BgeSmallEnV15QuantizedEmbeddingModel();
 
     public static String supportRag() {
@@ -20,12 +21,15 @@ public final class CorpusRag {
     }
 
     public static String secondPdf() {
-        return System.getProperty("tp4.second.pdf", "document-2.pdf");
+        return System.getProperty("tp4.second.pdf", PDF_GESTION_EAU);
     }
 
     public static String secondDescription() {
         String description = System.getProperty("tp4.second.description", "").trim();
         if (description.isEmpty()) {
+            if (PDF_GESTION_EAU.equals(secondPdf())) {
+                return "Gestion de l'eau et irrigation goutte-à-goutte.";
+            }
             throw new IllegalStateException("Indiquez le sujet du deuxième PDF avec -Dtp4.second.description.");
         }
         return description;
